@@ -85,7 +85,7 @@
     /* Sale section */
     
     .sale-banner {
-        background: url("img/john-mayer.webp");
+        background: url("img/sale-hero.jpg");
         margin-top: 4.4rem;
     }
     
@@ -181,17 +181,16 @@
     }
     
     .tile {
-        padding: 5px;
         align-items: center;
     }
     
     .tile img {
         width: 30vh;
-        height: 30vh;
-        border-radius: 20px
+        height: 45vh;
     }
     
     .tile-body {
+        margin-left: 10px;
         border: none;
         font-family: iCielBCDowntown-Regular;
         box-shadow: none;
@@ -206,8 +205,15 @@
     }
     
     .tile-footer {
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-bottom: 10px;
         border: none;
         box-shadow: none;
+    }
+    
+    .tile-footer:hover {
+        opacity: 0.7;
     }
     /* bottom */
     
