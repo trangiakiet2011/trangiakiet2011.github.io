@@ -14,69 +14,66 @@
     <header>
         <div class="container">
             <nav class="nav">
-                <ul class="nav-list nav-list-mobile">
-                    <li class="nav">
-                        <div class="mobile-menu">
-                            <span class="line line-top">
-                                <span class="line line-bottom">
-                                </span>
-                        </div>
-                    </li>
-
+                <ul class="nav-list">
                     <li class="nav-item">
                         <a href="index.html" class="nav-link nav-link-muse"></a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link nav-link-bag"></a>
+                        <a href="Products.html" class="nav-link">Sản phẩm</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="Services.html" class="nav-link">Dịch vụ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="SignIn.html" class="nav-link">Tài khoản</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="AboutUs.html" class="nav-link">Về Muse.</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="Cart.html" class="nav-link"><i class="fa-solid fa-cart-shopping"></i></a>
                     </li>
                 </ul>
-                <!-- /.nav-list nav-list-mobile -->
-
-                <ul class="nav-list nav-list-larger">
-                    <li class="nav-item nav-item-hidden">
-                        <a href="index.html" class="nav-link nav-link-muse"></a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="Products.html" class="nav-link nav-link">Sản phẩm</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="Services.html" class="nav-link nav-link">Dịch vụ</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="Accounts.html" class="nav-link nav-link">Tài khoản</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="AboutUs.html" class="nav-link nav-link">Về Muse.</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="Cart.html" class="nav-link nav-link-bag"><i class="fa-solid fa-cart-shopping"></i></a>
-                    </li>
-                </ul>
-                <!-- /.nav-list nav-list-larger -->
             </nav>
         </div>
     </header>
 
-    <section id="login" class="section-p1">
+    <section id="signup" class="section-p1">
         <div>
             <h3>
                 <center>
-                    <h3>Đăng nhập</h3>
+                    <h3>Đăng ký</h3>
                 </center>
             </h3>
             <form>
                 <div class="container">
-                    <label><h3>Tên đăng nhập</h3></label>
-                    <input type="text" placeholder="Nhập tên đăng nhập" name="username" required>
-                    <label><h3>Mật khẩu</h3></label>
+                    <label>
+                        <h3>Email</h3>
+                    </label>
+                    <input type="text" placeholder="Nhập email" name="email" required>
+
+                    <label>
+                        <h3>Mật khẩu</h3>
+                    </label>
                     <input type="text" placeholder="Nhập mật khẩu" name="password" required>
-                    <button type="submit">Đăng nhập</button>
-                    <input type="checkbox" checked="checked"> Nhớ tôi
+
+                    <label>
+                        <h3>Họ</h3>
+                    </label>
+                    <input type="text" placeholder="Nhập họ" name="last_name" required>
+
+
+                    <label>
+                        <h3>Tên</h3>
+                    </label>
+                    <input type="text" placeholder="Nhập tên" name="first_name" required>
+
+
+                    <button type="submit" name="signup">Đăng ký</button>
                 </div>
             </form>
         </div>
     </section>
-
 
 </body>
 
