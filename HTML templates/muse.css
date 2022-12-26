@@ -72,8 +72,6 @@
             box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.1);
         }
         
-        .nav {}
-        
         .nav-list {
             list-style: none;
             display: flex;
@@ -227,8 +225,6 @@
         .product:hover {
             box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.15);
         }
-        
-        .tile {}
         
         .tile img {
             margin: auto;
